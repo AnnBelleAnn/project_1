@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background: #f0f8ff;
+    color: #333;
+  }
+  
+  .header {
+    background: #2b2d83;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  
+
+  .cta-button {
+    background: #f9c74f;
+    color: #333;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #4dabf7, #74c0fc);
+    padding: 4em 2em;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-text span {
+    color: #ffc8db;
+  }
+  
+  .btn {
+    background: #f9c74f;
+    color: #000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  .hero-graphic {
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, #ff6b6b 30%, transparent 30%), 
+                radial-gradient(circle, #f783ac 30%, transparent 30%);
+    background-position: 0 0, 60% 40%;
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+  }
+  
+  .features {
+    padding: 3em 2em;
+    text-align: center;
+    background: #e3f2fd;
+  }
+  
+  .feature-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    flex-wrap: wrap;
+    gap: 1.5em;
+  }
+  
+  .feature {
+    width: 250px;
+    background: white;
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1em;
+    background-size: cover;
+  }
+  
+  .icon.dinosaur {
+    background-color: #a5d8ff;
+    border-radius: 50%;
+  }
+  
+  .icon.cafe {
+    background-color: #ffe066;
+    border-radius: 50%;
+  }
+  
+  .icon.baby {
+    background-color: #d0ebff;
+    border-radius: 50%;
+  }
+  
+  .about-preview, .testimonials, .contact-cta {
+    padding: 3em 2em;
+    text-align: center;
+  }
+  
+  .testimonial-box {
+    background: #fff3bf;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 15px;
+    max-width: 600px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1em;
+    background: #2b2d83;
+    color: white;
+  }
+  .contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: inherit;
+  }
+  
+  .contact-form button {
+    align-self: center;
+  }
+    
